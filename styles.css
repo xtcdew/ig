@@ -1,0 +1,100 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url('https://htmlcolorcodes.com/assets/images/colors/matte-black-color-solid-background-1920x1080.png'); /* Path to your GIF file */
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo img {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #1B1212;
+}
+
+.content {
+    padding: 20px;
+    background-color: #232322;
+}
+
+.content h2 {
+    color: #F1E7E5;
+    font-family: "Arial", Sans-Serif;
+}
+
+.content p {
+    color: #666;
+}
+
+.logol img {
+    width: 515px; /* Adjust as needed */
+    height: auto;
+}
+
+.logol {
+    border-radius: 10px; /* Adjust the value to change the corner radius */
+    overflow: hidden; /* This is important to make sure the image is clipped to the rounded corners */
+}
+
+.logol img {
+    width: 100%; /* Make sure the image fills the container */
+    display: block; /* Remove any default inline spacing */
+}
+
+
+body {
+    background-color: #28282B;
+}
+
+
+.image-container {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.image-container img {
+    width: calc(33.33% - 10px); 
+    border-radius: 10px; 
+    margin-right: 10px; 
+}
+
+
+.image-container img:last-child {
+    margin-right: 0;
+}
+
+
