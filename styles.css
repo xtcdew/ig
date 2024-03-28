@@ -77,7 +77,7 @@ nav ul li a:hover {
 /* Media query for desktop screens */
 @media screen and (min-width: 768px) {
     .logol {
-        width: 500px; /* Adjust width for desktop */
+        width: 700px; /* Adjust width for desktop */
     }
 }
 
