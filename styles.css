@@ -57,6 +57,21 @@ nav ul li a:hover {
 .content h2 {
     color: #F1E7E5;
     font-family: "Arial", Sans-Serif;
+
+    /* Define keyframes for the animation */
+@keyframes rainbow {
+    0% { color: red; }
+    25% { color: orange; }
+    50% { color: yellow; }
+    75% { color: green; }
+    100% { color: blue; }
+}
+
+/* Apply the animation to the h2 element */
+.animate {
+    animation: rainbow 5s infinite; /* Play the animation continuously */
+    text-align: center;
+}
 }
 
 .content p {
