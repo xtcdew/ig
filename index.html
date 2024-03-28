@@ -32,6 +32,47 @@
 <body>
     <div class="container">
         <h2 class="rainbow-text">xtc*** got no chill </h2>
+        <style>
+            @keyframes rainbow {
+    0% {
+        color: red;
+    }
+    16.67% {
+        color: orange;
+    }
+    33.33% {
+        color: yellow;
+    }
+    50% {
+        color: green;
+    }
+    66.67% {
+        color: blue;
+    }
+    83.33% {
+        color: indigo;
+    }
+    100% {
+        color: violet;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 100vh;
+}
+
+.rainbow-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    animation: rainbow 0.25s linear infinite;
+}
+
+
+            </style>
     </div>
 </body>
 </html>
