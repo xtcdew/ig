@@ -69,7 +69,7 @@ nav ul li a:hover {
 /* Media query for desktop screens */
 @media screen and (min-width: 768px) {
     .logol img {
-        max-width: 300px; /* Adjust the max-width as needed for desktop */
+        max-width: 100px; /* Adjust the max-width as needed for desktop */
     }
 }
 
