@@ -31,34 +31,29 @@
         <section class="content">
             <h2 class="animate">Welcome To Psychedelic Realm</h2>
             <style> 
-                /* Define keyframes for the animation */
-@keyframes rainbow {
-    0% { color: red; }
-    25% { color: orange; }
-    50% { color: yellow; }
-    75% { color: green; }
-    100% { color: blue; }
-}
-
-/* Apply the animation to the h2 element */
-.animate {
-    animation: rainbow 5s infinite; /* Play the animation continuously */
-    text-align: center;
-}
-
-                .typing {
+.typing {
     overflow: hidden; /* Ensures that the text doesn't overflow */
     border-right: .15em solid orange; /* Creates the typing cursor */
     white-space: nowrap; /* Prevents the text from wrapping */
     margin: 0 auto; /* Centers the text */
     letter-spacing: .15em; /* Adjust spacing between characters */
-    animation: typing 5s steps(40, end) infinite; /* Animation duration and steps */
+    animation: typing 5s steps(40, end) infinite, changeColor 5s infinite; /* Animation duration and steps */
 }
 
 /* Keyframes for the typing animation */
 @keyframes typing {
     from { width: 0; } /* Starts with no width */
     to { width: 100%; } /* Ends with full width */
+}
+
+/* Keyframes for changing color */
+@keyframes changeColor {
+    0% { color: red; }
+    25% { color: orange; }
+    50% { color: yellow; }
+    75% { color: green; }
+    100% { color: blue; }
+}
 }
 
             </style>
