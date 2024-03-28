@@ -60,17 +60,9 @@ nav ul li a:hover {
     color: #666;
 }
 
-
 .logol img {
-    max-width: 100%; /* Ensure the image does not exceed the container width */
-    height: auto; /* Maintain aspect ratio */
-}
-
-/* Media query for desktop screens */
-@media screen and (min-width: 768px) {
-    .logol img {
-        max-width: 300px; /* Adjust the max-width as needed for desktop */
-    }
+    width: 515px; /* Adjust as needed */
+    height: auto;
 }
 
 .logol {
@@ -78,10 +70,10 @@ nav ul li a:hover {
     overflow: hidden; /* This is important to make sure the image is clipped to the rounded corners */
 }
 
-
-
-
-
+.logol img {
+    width: 100%; /* Make sure the image fills the container */
+    display: block; /* Remove any default inline spacing */
+}
 
 
 body {
@@ -104,5 +96,4 @@ body {
 .image-container img:last-child {
     margin-right: 0;
 }
-
 
