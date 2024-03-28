@@ -29,6 +29,7 @@
 
     <main>
         <section class="content">
+            <link rel="stylesheet" href="styles.css">
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
             <h2 class="animate">xtc*** got no chill</h2>
             <style>
@@ -46,9 +47,16 @@
 .animate {
     animation: rainbow 0.25s infinite; /* Play the animation continuously */
     text-align: center;
-    font-family: 'Poppins', sans-serif;
 }
-
+                
+.content h2.animate {
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font to the h2 element */
+    font-size: 24px;
+    text-align: center;
+    position: relative; /* Position relative for absolute positioning of reflection */
+    animation: rainbow 0.25s linear infinite;
+    line-height: 1; /* Adjust the line-height to reduce space at the bottom */
+}
             </style>
             <div class="logol">
             <img src="xtcdew.gif" alt="Logol" align="center">
