@@ -62,7 +62,7 @@ nav ul li a:hover {
 
 
 .logol img {
-    max-width: 100%; /* Ensure the image does not exceed the container width */
+    max-width: 80%; /* Ensure the image does not exceed the container width */
     height: auto; /* Maintain aspect ratio */
 }
 
@@ -77,10 +77,6 @@ nav ul li a:hover {
 
 
 
-.logol {
-    border-radius: 10px; /* Adjust the value to change the corner radius */
-    overflow: hidden; /* This is important to make sure the image is clipped to the rounded corners */
-}
 
 
 
