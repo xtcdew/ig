@@ -30,7 +30,22 @@
     <main>
         <section class="content">
             <h2 class="animate">Welcome To Psychedelic Realm</h2>
-            
+            <style> 
+                /* Define keyframes for the animation */
+@keyframes rainbow {
+    0% { color: red; }
+    25% { color: orange; }
+    50% { color: yellow; }
+    75% { color: green; }
+    100% { color: blue; }
+}
+
+/* Apply the animation to the h2 element */
+.animate {
+    animation: rainbow 5s infinite; /* Play the animation continuously */
+    text-align: center;
+}
+            </style>
             <div class="logol">
             <img src="xtcdew.gif" alt="Logol" align="center">
             </div>
