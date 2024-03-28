@@ -60,16 +60,12 @@ nav ul li a:hover {
     color: #666;
 }
 
-.logol img {
-    width: 515px; /* Adjust as needed */
-    height: auto;
-}
-
 .logol {
-    width: 200px; /* Adjust the width as needed */
+    width: 200px; /* Adjust the width as needed for mobile */
     height: auto; /* Maintain aspect ratio */
     border-radius: 20px; /* Adjust the corner radius as needed */
     overflow: hidden; /* Ensure the image stays within the rounded corners */
+    margin: 0 auto; /* Center align the container horizontally */
 }
 
 .logol img {
@@ -77,6 +73,14 @@ nav ul li a:hover {
     width: 100%; /* Ensure the image fills its container */
     height: auto; /* Maintain aspect ratio */
 }
+
+/* Media query for desktop screens */
+@media screen and (min-width: 768px) {
+    .logol {
+        width: 400px; /* Adjust width for desktop */
+    }
+}
+
 
 
 
