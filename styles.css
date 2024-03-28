@@ -75,6 +75,17 @@ nav ul li a:hover {
     display: block; /* Remove any default inline spacing */
 }
 
+.logol img {
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Media query for desktop screens */
+@media screen and (min-width: 768px) {
+    .logol img {
+        max-width: 300px; /* Adjust the max-width as needed for desktop */
+    }
+}
 
 body {
     background-color: #28282B;
