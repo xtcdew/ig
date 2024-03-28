@@ -45,6 +45,22 @@
     animation: rainbow 5s infinite; /* Play the animation continuously */
     text-align: center;
 }
+
+                .typing {
+    overflow: hidden; /* Ensures that the text doesn't overflow */
+    border-right: .15em solid orange; /* Creates the typing cursor */
+    white-space: nowrap; /* Prevents the text from wrapping */
+    margin: 0 auto; /* Centers the text */
+    letter-spacing: .15em; /* Adjust spacing between characters */
+    animation: typing 5s steps(40, end) infinite; /* Animation duration and steps */
+}
+
+/* Keyframes for the typing animation */
+@keyframes typing {
+    from { width: 0; } /* Starts with no width */
+    to { width: 100%; } /* Ends with full width */
+}
+
             </style>
             <div class="logol">
             <img src="xtcdew.gif" alt="Logol" align="center">
