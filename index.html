@@ -34,15 +34,17 @@
 /* Define keyframes for the animation */
 @keyframes rainbow {
     0% { color: red; }
-    25% { color: orange; }
-    50% { color: yellow; }
-    75% { color: green; }
-    100% { color: blue; }
+    16.67% { color: orange; }
+    33.33% { color: yellow; }
+    50% { color: green; }
+    66.67% { color: green; }
+    83.33% { color: indigo; }
+    100% { color: violet; }
 }
 
 /* Apply the animation to the h2 element */
 .animate {
-    animation: rainbow 5s infinite; /* Play the animation continuously */
+    animation: rainbow 0.25s infinite; /* Play the animation continuously */
     text-align: center;
 }
 
