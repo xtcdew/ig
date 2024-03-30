@@ -126,15 +126,17 @@ body {
 
 /* Image container styles */
 .image-container {
+  display: flex;
+  justify-content: center; /* Center images horizontally */
+  align-items: center; /* Center images vertically */
   border-radius: 10px;
   overflow: hidden; /* Ensure rounded corners */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 10); /* Add box shadow */
 }
 
 /* Rounded image styles */
 .rounded-image {
-  display: block;
-  width: 100%;
+  max-width: 100%; /* Limit image width to container size */
   height: auto;
   border-radius: 10px;
 }
@@ -142,15 +144,16 @@ body {
 /* Modern button styles */
 .modern-button {
   display: block;
-  width: 100%;
-  padding: 10px 20px;
+  width: 50%;
+  padding: 8px 16px; /* Adjust button padding */
   border: none;
-  border-radius: 20px; /* Round button shape */
+  border-radius: 10px; /* Round button shape */
   background-color: #007bff;
   color: #fff;
   text-align: center;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-top: 10px; /* Add space between image and button */
 }
 
 /* Button hover effect */
