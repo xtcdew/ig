@@ -139,11 +139,12 @@ body {
 /* Media query for desktop screens */
 @media screen and (min-width: 768px) {
   .column {
-    flex: 1 0 calc(50% - 50px); /* Two columns with gap */
-    margin: 0 25px; /* Add spacing between columns for desktop */
+    flex: 1 0 calc(50% - 100px); /* Two columns with gap */
+    margin: 0 10px; /* Add spacing between columns for desktop */
   }
   .rounded-image1 {
-    height: 500px; /* Adjust height for desktop */
+    height: 500px
+    width: 300px  ; /* Adjust height for desktop */
   }
 }
 
