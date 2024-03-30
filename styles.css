@@ -112,56 +112,6 @@ body {
 }
 
 
-/* Container styles */
-.container {
-  display: flex;
-  flex-wrap: wrap; /* Wrap columns when needed */
-}
-
-/* Column styles */
-.column {
-  flex: 50%; /* Two columns, each taking half of the container */
-  padding: 15px; /* Adjust padding as needed */
-}
-
-/* Image link styles */
-.image-link {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-}
-
-/* Rounded image styles */
-.rounded-image {
-  display: inline-block;
-  width: 100%;
-  height: auto;
-  border-radius: 10px; /* Rounded corners */
-  transition: transform 0.3s ease; /* Smooth transition on hover */
-}
-
-/* Text styles */
-.text {
-  text-align: center;
-  margin-top: 10px; /* Spacing between image and text */
-  color: #000; /* Default text color */
-  font-weight: bold;
-}
-
-/* Hover effect on text */
-.text:hover {
-  color: #007bff; /* Text color on hover */
-}
-
-/* Media query for mobile devices */
-@media (max-width: 768px) {
-  .column {
-    flex: 100%; /* One column on mobile */
-  }
-}
-
-
-
 footer {
     background: linear-gradient(to right, #D4D487, #FAFFD4); /* Black to white gradient */
     color: #000;
