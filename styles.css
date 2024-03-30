@@ -1,3 +1,116 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url('https://htmlcolorcodes.com/assets/images/colors/matte-black-color-solid-background-1920x1080.png'); /* Path to your GIF file */
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+.logo img {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #1B1212;
+}
+
+
+
+
+.content {
+    padding: 20px;
+    background-color: #232322;
+}
+
+.content h2 {
+    color: #F1E7E5;
+    font-family: "Arial", Sans-Serif;
+}
+
+.content p {
+    color: #666;
+}
+
+.logol {
+    width: 300px; /* Adjust the width as needed for mobile */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Adjust the corner radius as needed */
+    overflow: hidden; /* Ensure the image stays within the rounded corners */
+    margin: 0 auto; /* Center align the container horizontally */
+}
+
+.logol img {
+    display: block;
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Media query for desktop screens */
+@media screen and (min-width: 768px) {
+    .logol {
+        width: 700px; /* Adjust width for desktop */
+    }
+}
+
+
+
+
+body {
+    background-color: #28282B;
+}
+
+
+.image-container {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.image-container img {
+    width: calc(33.33% - 10px); 
+    border-radius: 10px; 
+    margin-right: 10px; 
+}
+
+
+.image-container img:last-child {
+    margin-right: 0;
+}
+
 /* Container styles */
 .container {
   display: flex;
@@ -53,4 +166,33 @@
     .rounded-image1 {
         height: 700px; /* Adjust width for desktop */
     }
+}
+
+
+
+
+footer {
+    background: linear-gradient(to right, #D4D487, #FAFFD4); /* Black to white gradient */
+    color: #000;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center; /* Align content horizontally in the center */
+    align-items: center;
+    flex-direction: column; /* Stack elements vertically */
+    max-width: 1200px;
+    margin: 0 auto; /* Center content */
+}
+
+.address-bar {
+    text-align: center;
+}
+
+.atypical-footer {
+    /* Styles for your atypical footer content */
 }
