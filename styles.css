@@ -175,6 +175,43 @@ body {
 
 
 
+
+
+.section1 {
+  background-image: url('https://i.pinimg.com/originals/c9/cb/84/c9cb84faf86c1ab164ad1053c5515898.gif'), url('https://i.gifer.com/origin/d3/d31da453ae8101597200a99f233dcd87.gif');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: color;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.section2 {
+  background-image: url('https://i.gifer.com/origin/d3/d31da453ae8101597200a99f233dcd87.gif'), url('https://i.pinimg.com/originals/c9/cb/84/c9cb84faf86c1ab164ad1053c5515898.gif');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: difference;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.container10 {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+}
+
+.content10 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+
 footer {
     background: linear-gradient(to right, #D4D487, #FAFFD4); /* Black to white gradient */
     color: #000;
