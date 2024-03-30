@@ -109,6 +109,7 @@ body {
 
 .image-container img:last-child {
     margin-right: 0;
+}
 
 /* Container styles */
 .container {
@@ -122,7 +123,7 @@ body {
 }
 
 /* Image container styles */
-.image-container {
+.image-container1 {
   border-radius: 10px;
   overflow: hidden; /* Ensure rounded corners */
   box-shadow: 0 0 10px rgba(255, 255, 255, 1); /* Add box shadow */
@@ -146,6 +147,8 @@ body {
 
 
 }
+
+
 
 
 footer {
