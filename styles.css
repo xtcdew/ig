@@ -168,7 +168,7 @@ body {
     margin: 0 10px; /* Add spacing between columns for desktop */
   }
   .rounded-image1 {
-    height: 500px
+    height: 500px ;
     width: 300px  ; /* Adjust height for desktop */
   }
 }
