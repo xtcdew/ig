@@ -119,7 +119,7 @@ body {
 /* Column styles */
 .column {
   flex: 1; /* Equal width for both columns */
-  margin: 0 25px; /* Add more spacing between columns for desktop */
+  margin: 0 10px; /* Add more spacing between columns for desktop */
 }
 
 /* Image container styles */
@@ -132,7 +132,7 @@ body {
 /* Rounded image styles */
 .rounded-image1 {
   width: 100%; /* Adjust the width as needed for both mobile and desktop */
-  height: 350px; /* Adjust height for mobile */
+  height: 225px; /* Adjust height for mobile */
   border-radius: 10px; /* Adjust the corner radius */
 }
 
