@@ -109,8 +109,9 @@ body {
 
 .image-container img:last-child {
     margin-right: 0;
-}
 
+
+    
 /* Container styles */
 .container {
   display: flex;
@@ -129,9 +130,8 @@ body {
   display: flex;
   justify-content: center; /* Center images horizontally */
   align-items: center; /* Center images vertically */
-  border-radius: 10px;
   overflow: hidden; /* Ensure rounded corners */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 10); /* Add box shadow */
+  /* Add box shadow */
 }
 
 /* Rounded image styles */
@@ -139,6 +139,7 @@ body {
   max-width: 100%; /* Limit image width to container size */
   height: auto;
   border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 10);
 }
 
 /* Modern button styles */
@@ -167,7 +168,6 @@ body {
     flex-basis: 100%; /* One column on mobile */
   }
 }
-
 
 
 footer {
