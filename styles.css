@@ -82,7 +82,7 @@ body {
 .image-container img {
     width: calc(33.33% - 10px); /* Adjusted width */
     border-radius: 10px;
-    margin: 0 auto 10px auto; /* Margin: 0 on top and bottom, auto on left and right */
+    margin: 0 5px 10px 5px; /* Margin: 0 on top and bottom, 5px on left and right */
     box-shadow: 0 0 10px rgba(255, 255, 255, 1);
 }
 
