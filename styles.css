@@ -172,6 +172,7 @@ body {
 
 
 
+/* Base styles */
 .section1 {
   background-image: url('https://i.pinimg.com/originals/c9/cb/84/c9cb84faf86c1ab164ad1053c5515898.gif'), url('https://i.gifer.com/origin/d3/d31da453ae8101597200a99f233dcd87.gif');
   background-size: cover;
@@ -181,8 +182,17 @@ body {
   padding: 50px;
 }
 
+.section2 {
+  background-image: url('https://i.gifer.com/origin/d3/d31da453ae8101597200a99f233dcd87.gif'), url('https://i.pinimg.com/originals/c9/cb/84/c9cb84faf86c1ab164ad1053c5515898.gif');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: color;
+  border-radius: 10px;
+  padding: 50px;
+}
 
-.container10 {
+
+.container10, .container11 {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -192,47 +202,29 @@ body {
 }
 
 .container10:hover {
-  background-color: rgba(0, 247, 255, 0.5) /* Change the background color on hover */
-}
-
-.content10 {
-  text-align: center;
-}
-
-h2 {
-  margin-bottom: 10px;
-}
-
-.section2 {
-  background-image: url('https://i.gifer.com/origin/d3/d31da453ae8101597200a99f233dcd87.gif'), url('https://i.pinimg.com/originals/c9/cb/84/c9cb84faf86c1ab164ad1053c5515898.gif');
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: difference;
-  border-radius: 10px;
-  padding: 50px;
-}
-
-.container11 {
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 20px;
-  transition: background-color 0.3s ease; /* Smooth transition for color change */
+  background-color: rgba(0, 247, 255, 0.5); /* Change the background color on hover */
 }
 
 .container11:hover {
-  background-color: rgba(46, 3, 3, 0.5) /* Change the background color on hover */
+  background-color: rgba(46, 3, 3, 0.5); /* Change the background color on hover */
 }
 
-
-.content11 {
+.content10, .content11 {
   text-align: center;
 }
 
 h2 {
   margin-bottom: 10px;
 }
+
+/* Media query for desktop screens */
+@media screen and (min-width: 768px) {
+  .section1, .section2 {
+    width: 50%; /* Two sections with equal width */
+    display: inline-block; /* Display sections side by side */
+  }
+}
+
 
 
 footer {
