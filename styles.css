@@ -219,12 +219,15 @@ h2 {
 
 /* Media query for desktop screens */
 @media screen and (min-width: 768px) {
+  .container {
+    display: flex; /* Use flexbox to horizontally align sections */
+    justify-content: space-between; /* Add space between sections */
+  }
+
   .section1, .section2 {
-    width: 50%; /* Two sections with equal width */
-    display: inline-block; /* Display sections side by side */
+    width: calc(50% - 5px); /* Two sections with 50% width and 5px gap */
   }
 }
-
 
 
 footer {
