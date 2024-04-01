@@ -136,6 +136,7 @@ body {
     border-radius: 5px; /* Adjust the corner radius as needed */
     overflow: hidden; /* Ensure the image stays within the rounded corners */
     margin: 0 auto; /* Center align the container horizontally */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1); /* Add box shadow */
 }
 
 .rounded-image1 img {
@@ -152,7 +153,8 @@ body {
   }
   .rounded-image1 {
     height: 400px ;
-    width: 300px  ; /* Adjust height for desktop */
+    width: 300px  ; /* Adjust height for desktop 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1); /* Add box shadow */
   }
 }
 
