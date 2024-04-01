@@ -107,7 +107,7 @@ body {
 .image-container1 {
   border-radius: 10px;
   overflow: hidden; /* Ensure rounded corners */
-  box-shadow: 0 0 10px rgba(255, 255, 255, 1); /* Add box shadow */
+  
   
 }
 
@@ -117,6 +117,7 @@ body {
   width: 100%; /* Image width set to 100% of its container */
   height: 350px; /* Maintain aspect ratio */
   border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 1); /* Add box shadow */
 }
 
 
@@ -125,6 +126,7 @@ body {
   width: 100%; /* Image width set to 100% of its container */
   height: 350px; /* Maintain aspect ratio */
   border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 1); /* Add box shadow */
 
 }
 
