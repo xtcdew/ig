@@ -217,17 +217,20 @@ h2 {
   margin-bottom: 10px;
 }
 
+
 /* Media query for desktop screens */
 @media screen and (min-width: 768px) {
-  .container {
-    display: flex; /* Use flexbox to horizontally align sections */
-    justify-content: space-between; /* Add space between sections */
+  .section1, .section2 {
+    width: calc(50% - 10px); /* Adjust width to fit two sections with a 10px gap */
+    margin-right: 10px; /* Add spacing between sections */
+    float: left; /* Float sections to the left for side-by-side layout */
   }
 
-  .section1, .section2 {
-    width: calc(50% - 5px); /* Two sections with 50% width and 5px gap */
+  .section2 {
+    margin-right: 0; /* Remove margin from the last section to prevent extra spacing */
   }
 }
+
 
 
 footer {
