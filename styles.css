@@ -218,18 +218,26 @@ h2 {
 }
 
 
+/* Container styles */
+.container10, .container11 {
+  width: 45%; /* Adjust width as needed */
+  display: inline-block; /* Display sections inline */
+  vertical-align: top; /* Align sections to the top */
+  margin-right: 10px; /* Add gap between sections */
+}
+
 /* Media query for desktop screens */
 @media screen and (min-width: 768px) {
-  .section1, .section2 {
-    width: calc(50% - 10px); /* Adjust width to fit two sections with a 10px gap */
-    margin-right: 10px; /* Add spacing between sections */
-    float: left; /* Float sections to the left for side-by-side layout */
-  }
-
-  .section2 {
-    margin-right: 0; /* Remove margin from the last section to prevent extra spacing */
+  .container10, .container11 {
+    width: calc(50% - 5px); /* Two sections with gap */
+    display: inline-block; /* Display sections inline */
+    vertical-align: top; /* Align sections to the top */
+    margin-right: 10px; /* Add gap between sections */
   }
 }
+
+
+
 
 
 
