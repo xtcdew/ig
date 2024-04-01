@@ -144,22 +144,30 @@ body {
 
 /* Media query for desktop screens */
 @media screen and (min-width: 768px) {
+  .container {
+    justify-content: center; /* Center align the elements horizontally */
+  }
+
   .column {
     flex: 1 0 calc(50% - 100px); /* Two columns with gap */
     margin: 0 10px; /* Add spacing between columns for desktop */
   }
-  .rounded-image1 {
-    height: 400px ; /* Adjust height for desktop */
-    width: 300px  ;
-    margin: 0 auto;
+
+  .image-container1 {
+    height: 400px; /* Adjust height for desktop */
+    width: 300px; /* Adjust width for desktop */
+    margin: 0 auto; /* Center align the container horizontally */
   }
-.image-container1 {
-  height: 400px ;
-  width: 300px  ;
-  
+
+  .rounded-image1 {
+    height: 400px; /* Adjust height for desktop */
+    width: 300px; /* Adjust width for desktop */
+    border-radius: 10px; /* Adjust the corner radius as needed */
+    overflow: hidden; /* Ensure the image stays within the rounded corners */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1); /* Add box shadow */
+  }
 }
 
-}
 
 
 
