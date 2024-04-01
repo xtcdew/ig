@@ -209,27 +209,63 @@ h2 {
 
 
 footer {
-    background: linear-gradient(to right, #D4D487, #FAFFD4); /* Black to white gradient */
-    color: #000;
-    padding: 20px 0;
-    text-align: center;
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
-}
+    background-image: url('https://i.gifer.com/17xf.gif'), url('https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/t/3/b/medium-na-trippy-psychedelic-art-colorful-art-hd-matte-finish-original-imagzhyqjagbrhbv.jpeg?q=90&crop=false'); /* Specify two background images */
+    background-size: cover; /* Cover the entire area with the background images */
+    background-position: center; /* Center align the background images */
+    background-repeat: no-repeat; /* Do not repeat the background images */
+    background-blend-mode: overlay; /* Blend mode for the background images */
+    background-color: rgba(0, 0, 0, 0.5); /* Background color with transparency */
+    color: #ffffff; /* Light text color */
+    padding: 50px 0; /* Add padding to the top and bottom */
+    text-align: center; /* Center align the content */
+  }
 
-.footer-content {
+  .footer-content {
     display: flex;
-    justify-content: center; /* Align content horizontally in the center */
-    align-items: center;
-    flex-direction: column; /* Stack elements vertically */
-    max-width: 1200px;
-    margin: 0 auto; /* Center content */
-}
+    justify-content: space-around; /* Evenly space the items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    max-width: 1200px; /* Limit the maximum width of the content */
+    margin: 0 auto; /* Center align the content horizontally */
+  }
 
-.address-bar {
-    text-align: center;
-}
+  .footer-section {
+    flex: 1 1 300px; /* Set equal width for all sections */
+    padding: 0 20px;/* Add padding to the left and right */
+    margin-bottom: 30px; /* Add spacing between sections */
+  }
 
-.atypical-footer {
-    /* Styles for your atypical footer content */
-}
+  .footer-section h3 {
+    font-size: 24px; /* Set font size for section titles */
+    margin-bottom: 20px; /* Add spacing below section titles */
+  }
+
+  .footer-section p {
+    font-size: 16px; /* Set font size for paragraph text */
+    line-height: 1.6; /* Set line height for better readability */
+  }
+
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%; /* Full width input fields */
+    padding: 10px; /* Add padding to input fields */
+    margin-bottom: 10px; /* Add spacing between input fields */
+    border-radius: 5px; /* Add rounded corners to input fields */
+    border: 1px solid #ccc; /* Add border to input fields */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+
+  .contact-form button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Add padding to the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners to the button */
+    background-color: #ff4081; /* Button background color */
+    color: #ffffff; /* Button text color */
+    cursor: pointer; /* Add pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Add transition effect for hover */
+  }
+
+  .contact-form button:hover {
+    background-color: #d81b60; /* Change background color on hover */
+  }
