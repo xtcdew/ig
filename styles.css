@@ -149,13 +149,13 @@ body {
     margin: 0 10px; /* Add spacing between columns for desktop */
   }
   .rounded-image1 {
-    height: 400px ;
-    width: 300px  ; /* Adjust height for desktop */
+    height: 400px ; /* Adjust height for desktop */
+    width: 300px  ;
+    margin: 0 auto;
   }
 .image-container1 {
   height: 400px ;
   width: 300px  ;
- justify-content: center;
   
 }
 
