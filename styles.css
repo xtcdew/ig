@@ -152,6 +152,12 @@ body {
     height: 400px ;
     width: 300px  ; /* Adjust height for desktop */
   }
+.image-container1 {
+  height: 400px ;
+  width: 300px  ; /* Add box shadow */
+  
+}
+
 }
 
 
