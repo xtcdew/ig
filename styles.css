@@ -130,7 +130,7 @@ body {
 
 .rounded-image1 {
     width: 100%; /* Adjust the width as needed for mobile */
-    height: 250px; /* Maintain aspect ratio */
+    height: 225px; /* Maintain aspect ratio */
     border-radius: 5px; /* Adjust the corner radius as needed */
     overflow: hidden; /* Ensure the image stays within the rounded corners */
     margin: 0 auto; /* Center align the container horizontally */
