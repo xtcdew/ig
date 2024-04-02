@@ -356,6 +356,17 @@ footer {
     transition: background-color 0.3s ease; /* Add transition effect for hover */
   }
 
+ .email-link {
+  color: #ffffff; /* Default color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.email-link:hover {
+  color: #F7FF00; /* New color when hovered over */
+}
+
+
   .contact-form button:hover {
     background-color: #d81b60; /* Change background color on hover */
   }
