@@ -207,18 +207,57 @@ h2 {
 
 
 
-<section class="unique-section">
-  <div class="content69">
-    <h2>Welcome <br> To <br> Reality</h2>
-    <p>Wanna Explore More? Get Lost Into Utopic Realm</p>
-    <a href="https://dribbble.com/tags/psychedelic-art">
-  <button class="btn">Go Now</button>
-</a>
-    <div class="image-container69">
-      <img src="https://i.gifer.com/9AXe.gif" alt="Image">
-    </div>
-  </div>
-</section>
+.unique-section {
+  padding: 50px;
+  text-align: center;
+  background-image: url('https://i.pinimg.com/originals/48/7f/6f/487f6fdd8b1feb3d36f474d166cb429f.gif'), url('https://i.pinimg.com/originals/4f/2a/08/4f2a08b961c6c95bedb5ed4d2cc39513.gif');
+  background-blend-mode: color-dodge;
+}
+
+
+.content69 {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #F3F3F3;
+}
+
+p {
+  color: #FFFF6C;
+}
+
+.btn {
+  background-color: #ff6347;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff4500;
+}
+
+.image-container69 {
+  margin-top: 20px;
+}
+
+.image-container69 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.image-container69 img:hover {
+  transform: scale(1.1);
+}
+
 
 
 
