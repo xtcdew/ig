@@ -203,6 +203,30 @@ h2 {
   margin-bottom: 10px;
 }
 
+
+
+
+
+<section class="unique-section">
+  <div class="content69">
+    <h2>Welcome <br> To <br> Reality</h2>
+    <p>Wanna Explore More? Get Lost Into Utopic Realm</p>
+    <a href="https://dribbble.com/tags/psychedelic-art">
+  <button class="btn">Go Now</button>
+</a>
+    <div class="image-container69">
+      <img src="https://i.gifer.com/9AXe.gif" alt="Image">
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
 .section2 {
   background-image: url('https://i.gifer.com/origin/d3/d31da453ae8101597200a99f233dcd87.gif'), url('https://i.pinimg.com/originals/c9/cb/84/c9cb84faf86c1ab164ad1053c5515898.gif');
   background-size: cover;
